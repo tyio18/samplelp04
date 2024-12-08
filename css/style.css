@@ -1,0 +1,481 @@
+@charset "UTF-8";
+
+
+.sp {
+    display: none;
+}
+
+.mainvisual img{
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    color: #333333;
+}
+
+/* cva area */
+
+.image-area {
+    margin-top: 70px;
+    position: relative; 
+}
+
+.image-area .product-image {
+    width: 80%;
+    height: auto; 
+    margin: 0 auto;
+}
+
+.cva {
+    position: absolute; 
+    top: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.usually-price {
+    font-family: 'Noto Sans JP';
+    font-weight: 400;
+    margin-left: -23%;
+}
+
+
+.special-price {
+    font-size: 2.5vw ;
+    font-weight: 400;
+    font-family: 'Noto Serif JP';
+    display: inline-block;
+    background: linear-gradient(5deg, #054a93 30%, #7cb9e0 50%, #1867aa 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.special-price span {
+    font-size: 1.0vw;
+}
+
+   
+.price-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.price {
+    font-size: 1.5vw;
+    margin-left: 50px;
+    display: flex;
+    align-items: center; 
+}
+
+.price span {
+    font-size: 1.0rem;
+}
+
+
+.special-price {
+    margin-left: 60px; 
+}
+.btnarea {
+    width: 70%;    
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-left: 27%;
+}
+
+.content h2 {
+    font-size: 1.3vw;
+    font-weight: 200;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    font-family: 'Noto Serif JP';
+}
+
+.content h2 span {
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #333333;
+    padding: 3px;
+}
+
+.image-area {
+    position: relative;
+    & .cva{
+      position: absolute;
+      top:15%;
+      margin: auto;
+      left: 55%;
+    }
+}
+
+
+.onayami-img {
+    width: 100%;
+}
+
+.onayami {
+    position: relative;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+    flex-direction: column; 
+}
+
+.question {
+    position: absolute; 
+    top: 3%; 
+    text-align: center; 
+    width: 100%; 
+    font-family: 'Noto Serif JP';
+    font-size: 1.5vw;
+}
+
+.question span img{
+    width: 10%;
+}
+
+.nayami {
+    clear: both; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nayami img {
+    display: block;
+    margin: 0 auto; 
+    width: 80%;
+}
+
+.onayami {
+    position: relative;
+    & .nayami{
+      position: absolute;
+      bottom: 70%; /* 下から60%の位置 */
+      left: 50%; /* 左から50%の位置 */
+      transform: translateX(-50%); 
+    }
+}
+
+.approach {
+    font-family: 'Noto Sans JP';
+    font-weight: 200;
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+}
+
+.koumoku img{
+    display: block;
+    margin: 0 auto; 
+    width: 80%;
+}
+
+.need {
+    font-family: 'Noto Sans JP';
+    font-weight: 200;
+    font-size: 1.5vw;
+    margin-top: 20px;
+}
+
+.onayami {
+    position: relative;
+    & .approach{
+      position: absolute;
+      bottom: 65%; /* 下から60%の位置 */
+      left: 50%; /* 左から50%の位置 */
+      transform: translateX(-50%); 
+    }
+}
+.onayami {
+    position: relative;
+    & .koumoku{
+      position: absolute;
+      bottom: 56%; /* 下から60%の位置 */
+      left: 50%; /* 左から50%の位置 */
+      transform: translateX(-50%); 
+      width: 40%;
+    }
+}
+.onayami {
+    position: relative;
+    & .need{
+      position: absolute;
+      bottom: 53%; /* 下から60%の位置 */
+      left: 50%; /* 左から50%の位置 */
+      transform: translateX(-50%); 
+    }
+}
+
+.kaihatu img{
+    width: 80%;
+}
+
+.gel-name h2 {
+    font-size: 1.5vw;
+    font-weight: 200;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-family: 'Noto Serif JP';
+    white-space: nowrap;
+}
+
+.gel-name h2 span {
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #333333;
+    padding: 5px;
+}
+
+.gel img {
+    width: 80%;
+}
+
+.kaizen img {
+    width: 90%;
+}
+
+.nayami-kaizen {
+    font-family: 'Noto Serif JP';
+    font-size: 2.5vw;
+}
+
+
+.nayami-kaizen span {
+    font-size: 3.0vw;
+    display: inline-block;
+    background: linear-gradient(5deg, #054a93 30%, #7cb9e0 50%, #1867aa 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.onayami {
+    position: relative;
+    & .kaihatu{
+      position: absolute;
+      bottom: 38%; /* 下から60%の位置 */
+      left: 50%; /* 左から50%の位置 */
+      transform: translateX(-50%); 
+    }
+}
+
+.onayami {
+    position: relative;
+    & .gel-name{
+      position: absolute;
+      bottom: 31%; /* 下から60%の位置 */
+      left: 50%; /* 左から50%の位置 */
+      transform: translateX(-50%); 
+    }
+}
+.onayami {
+    position: relative;
+    & .gel{
+      position: absolute;
+      bottom: 16%; /* 下から60%の位置 */
+      left: 50%; /* 左から50%の位置 */
+      transform: translateX(-50%); 
+      width: 30%;
+    }
+}
+.onayami {
+    position: relative;
+    & .kaizen{
+      position: absolute;
+      bottom: 12%; /* 下から60%の位置 */
+      left: 50%; /* 左から50%の位置 */
+      transform: translateX(-50%); 
+    }
+}
+.onayami {
+    position: relative;
+    & .nayami-kaizen{
+      position: absolute;
+      bottom: 8%; /* 下から60%の位置 */
+      left: 50%; /* 左から50%の位置 */
+      transform: translateX(-50%); 
+    }
+}
+
+.tokuchou-img {
+    width: 100%;
+}
+
+.tokuchou-title {
+    font-family: 'Noto Serif JP';
+    font-weight: 400;
+    font-size: 1.5vw;
+    color: #fff;
+    text-shadow: 1px 1px 5px #808080;
+}
+
+.tokuchou-title span {
+    font-size: 2.5vw;
+}
+
+.tokuchou {
+    position: relative;
+    & .tokuchou-title{
+      position: absolute;
+      top:1%;
+      left: 50%; /* 左から50%の位置 */
+      transform: translateX(-50%); 
+    }
+}
+
+.niacinamide img {
+    width: 80%;
+}
+
+.tokuchou {
+    position: relative;
+    & .niacinamide{
+      position: absolute;
+      top:4%;
+      left: 50%; /* 左から50%の位置 */
+      transform: translateX(-50%); 
+    }
+}
+
+.flex {
+    display: flex; /* フレックスボックスを使用 */
+    align-items: center; /* 垂直方向の中央揃え */
+}
+
+.flex img {
+    width: 80%;
+    height: auto;
+    margin-right: 100px; /* 画像とテキストの間にスペースを追加 */
+}
+
+.flex p {
+    margin: 0; /* パラグラフのマージンをリセット */
+    font-size: 1.0vw; /* フォントサイズを調整（必要に応じて変更） */
+    width: 500px;
+    font-family: 'Noto Sans JP';
+    line-height: 1.5;
+    text-shadow: 2px 2px 10px #ffffff ,
+-2px 2px 10px #ffffff ,
+2px -2px 10px #ffffff ,
+-2px -2px 10px #ffffff;
+}
+
+.flex p img {
+    width: 80%; 
+    margin: 0 5px; 
+}
+
+.tokuchou {
+    position: relative;
+    & .flex{
+      position: absolute;
+      top:7%;
+      left: 50%; /* 左から50%の位置 */
+      transform: translateX(-50%); 
+    }
+}
+
+.text-box p {
+    margin: 0; /* パラグラフのマージンをリセット */
+    font-size: 1.0vw; /* フォントサイズを調整（必要に応じて変更） */
+    width: 1000px;
+    font-family: 'Noto Sans JP';
+    line-height: 2.0;
+    text-shadow: 2px 2px 10px #ffffff ,
+-2px 2px 10px #ffffff ,
+2px -2px 10px #ffffff ,
+-2px -2px 10px #ffffff;
+}
+
+.text-box span {
+    font-size: 0.8vw;
+}
+
+.tokuchou {
+    position: relative;
+    & .text-box{
+      position: absolute;
+      top:13%;
+      left: 50%; /* 左から50%の位置 */
+      transform: translateX(-50%); 
+    }
+}
+.niacinamide-hada {
+    width: 100%;
+}
+
+.niacinamide-hada img {
+    width: 40%;
+    height: auto;
+}
+
+.attention {
+    text-align: left;
+    font-size: 0.8vw;
+}
+
+.attention li {
+    margin-bottom: 3px;
+}
+
+.tokuchou {
+    position: relative;
+    & .niacinamide-hada{
+      position: absolute;
+      top:15%;
+      left: 50%; /* 左から50%の位置 */
+      transform: translateX(-50%); 
+    }
+}
+.tokuchou {
+    position: relative;
+    & .attention{
+      position: absolute;
+      top:21%;
+      left: 20%;
+    }
+}
+
+
+.bihaku img {
+    width: 80%;
+}
+
+.tokuchou {
+    position: relative;
+    & .bihaku{
+      position: absolute;
+      top:23%;
+      left: 50%; /* 左から50%の位置 */
+      transform: translateX(-50%); 
+    }
+}
+
+.bihaku-text {
+    margin: 0; /* パラグラフのマージンをリセット */
+    font-size: 1.0vw; /* フォントサイズを調整（必要に応じて変更） */
+    width: 1000px;
+    font-family: 'Noto Sans JP';
+    line-height: 2.0;
+    text-shadow: 2px 2px 10px #ffffff ,
+-2px 2px 10px #ffffff ,
+2px -2px 10px #ffffff ,
+-2px -2px 10px #ffffff;
+}
+
+.tokuchou {
+    position: relative;
+    & .bihaku-text{
+      position: absolute;
+      top:26%;
+      left: 50%; /* 左から50%の位置 */
+      transform: translateX(-50%); 
+    }
+}
+.tokuchou {
+    position: relative;
+    & .bihaku-img{
+      position: absolute;
+      top:28%;
+      left: 50%; /* 左から50%の位置 */
+      
